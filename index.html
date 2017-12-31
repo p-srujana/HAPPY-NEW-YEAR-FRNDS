@@ -8,16 +8,13 @@
 	function fun()
 	{
 		var a=prompt("Enter your name");
-		if(a!=null)
-		{
+	
 		var para = document.createElement("p");
 		var node = document.createTextNode(a);
 		para.appendChild(node);
 		var element = document.getElementById("content");
 		element.appendChild(para);
-		}
-		else
-			alert("Please enter the name");
+		
 	}
 </script>
   
@@ -86,4 +83,5 @@
 
 		YEAR
 		</p>
-	</div></body></html>
+	
+</div></body></html>
